@@ -1,11 +1,15 @@
-from flask import Flask, request, render_template_string
+from flask import Flask, request, render_template_string, session
 import re
+import os
 
 # ---------- Config ----------
 STOPWORDS = {
     "o", "a", "os", "as", "de", "do", "da", "dos", "das", "em", "no", "na", "nos", "nas",
     "para", "por", "que", "e", "ou", "um", "uma", "como", "é", "ser", "ter", "ao", "aos"
 }
+
+app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY", "paroquia-secret-key")
 
 # ---------- Base ----------
 def carregar_base():
@@ -63,8 +67,6 @@ def escolher_resposta(pergunta):
         return "Ainda não encontrei essa resposta na minha base. Tente perguntar de outro jeito ou fale com a secretaria paroquial."
 
 # ---------- Web ----------
-app = Flask(__name__)
-
 HTML = """
 <!DOCTYPE html>
 <html>
@@ -96,18 +98,21 @@ HTML = """
 </html>
 """
 
-historico = [("ia", "Olá! Faça sua pergunta abaixo.")]
-
 @app.route("/", methods=["GET", "POST"])
 def index():
-    global historico
+    if "historico" not in session:
+        session["historico"] = [("ia", "Olá! Faça sua pergunta abaixo.")]
+
     if request.method == "POST":
         pergunta = request.form.get("pergunta", "").strip()
         if pergunta:
+            historico = session["historico"]
             historico.append(("user", pergunta))
             resposta = escolher_resposta(pergunta)
             historico.append(("ia", resposta))
-    return render_template_string(HTML, historico=historico)
+            session["historico"] = historico
+
+    return render_template_string(HTML, historico=session["historico"])
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
