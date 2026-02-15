@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template_string, session
+from flask import Flask, request, render_template_string, session, redirect, url_for
 import re
 import os
 
@@ -79,20 +79,29 @@ HTML = """
         .msg { margin: 10px 0; }
         .user { font-weight: bold; }
         .ia { color: #0b5ed7; }
-        input[type=text] { width: 80%; padding: 8px; }
-        button { padding: 8px 12px; }
+        input[type=text] { width: 75%; padding: 8px; }
+        button { padding: 8px 12px; margin-left: 5px; }
+        .actions { margin-top: 10px; }
     </style>
 </head>
 <body>
     <div class="chat">
         <h2>Assistente da Paróquia</h2>
+
         {% for autor, texto in historico %}
             <div class="msg"><span class="{{ autor }}">{{ autor }}:</span> {{ texto }}</div>
         {% endfor %}
-        <form method="post">
+
+        <form method="post" style="margin-top: 10px;">
             <input type="text" name="pergunta" placeholder="Digite sua pergunta..." autofocus>
             <button type="submit">Enviar</button>
         </form>
+
+        <div class="actions">
+            <form method="post" action="/limpar">
+                <button type="submit">Limpar conversa</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
@@ -113,6 +122,11 @@ def index():
             session["historico"] = historico
 
     return render_template_string(HTML, historico=session["historico"])
+
+@app.route("/limpar", methods=["POST"])
+def limpar():
+    session["historico"] = [("ia", "Olá! Faça sua pergunta abaixo.")]
+    return redirect(url_for("index"))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
