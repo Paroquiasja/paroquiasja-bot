@@ -1,0 +1,53 @@
+
+# BASE UNIFICADA - PARÓQUIA SÃO JOSÉ DE ANCHIETA
+# Versão v3 - Correções específicas para:
+# - "Por que os católicos rezam para Maria?"
+# - "Qual o horário da missa?"
+
+[HORARIOS_MISSA]
+qual o horario da missa, qual o horário da missa, horario da missa, horário da missa, horarios da missa, horários da missa, hora da missa, quando tem missa, quando é a missa, que horas é a missa, missa hoje, missa domingo, horario da celebração, horario da igreja, horario das missas
+Nossa Paróquia São José de Anchieta celebra missas aos domingos às 10h e às 19h. Durante a semana: segunda-feira às 15h e de quarta a sábado às 19h30. Para outros horários, consulte a secretaria paroquial.
+
+[CONFISSAO_PAROQUIA]
+horario de confissao, confissão horario, quando confessar, quando posso confessar, tem confissao hoje, confissao na igreja, confissao paroquia, dia de confissao
+As confissões na paróquia acontecem de quarta a sábado às 19h30. Para confirmar, procure a secretaria paroquial ou os avisos da igreja.
+
+[CONTATO]
+contato da paroquia, telefone da paroquia, numero da igreja, whatsapp da paroquia, falar com a paroquia, falar com a secretaria, email da paroquia, endereco da paroquia, como falar com a paroquia
+Você pode entrar em contato com a paróquia pela secretaria paroquial, pelo telefone (11) 2018-5524, pelo WhatsApp (11) 96437-3068, pelo Instagram @paroquiasjanchieta ou pelo e-mail paroquiasjdeanchieta@gmail.com.
+
+[PAROQUIA]
+sobre a paroquia, informacoes da paroquia, paroquia sao jose de anchieta
+A Paróquia São José de Anchieta é uma comunidade católica dedicada à evangelização, à celebração dos sacramentos e ao serviço ao próximo, em comunhão com a Igreja.
+
+[MISSA]
+o que é a missa, significado da missa, celebracao eucaristica, missa o que é
+A Missa é a celebração central da Igreja Católica, onde se renova sacramentalmente o sacrifício de Cristo e os fiéis participam da Eucaristia.
+
+[BATISMO]
+o que é batismo, o que significa batismo, sacramento do batismo, batizar, batizado, batizar meu filho, quero batizar, como funciona o batismo
+O Batismo é o sacramento que nos torna filhos de Deus e membros da Igreja. Ele apaga o pecado original e nos dá uma vida nova em Cristo.
+
+[COMO_MARCAR_BATISMO]
+como marcar batismo, marcar batismo, agendar batismo, inscrever para batismo, batizar meu filho, documentos para batismo, onde marcar batismo, quero marcar batismo
+Para marcar o Batismo, procure a secretaria paroquial com os documentos necessários. Lá você receberá as orientações sobre datas, padrinhos e a preparação.
+
+[EUCARISTIA]
+o que é a eucaristia, o que significa eucaristia, eucaristia, comunhao, comunhão, hostia, hóstia, corpo de cristo, eucaristia o que é
+A Eucaristia é o sacramento do Corpo e do Sangue de Jesus Cristo, instituído na Última Ceia. É o centro da vida cristã e fortalece nossa união com Cristo e com a Igreja.
+
+[ORACAO]
+o que é oracao, oração, rezar, reza, falar com deus, dialogo com deus
+A oração é o diálogo do cristão com Deus, fortalecendo a amizade com Ele.
+
+# --- APOLOGÉTICA (Maria) ---
+
+[MARIA_E_INTERCESSAO]
+por que os catolicos rezam para maria, por que os católicos rezam para maria, porque os catolicos rezam para maria, porque os católicos rezam para maria, por que rezar para maria, rezar para maria, maria intercede, intercessao de maria, intercessão de maria, maria mediadora, catolicos rezam para maria, rezar para maria e errado
+Os católicos não adoram Maria; a adoração é devida somente a Deus (Dt 6,13; Mt 4,10). Eles pedem a intercessão de Maria, como pedem a oração de outros cristãos (1Tm 2,1). Jesus é o único mediador da salvação (1Tm 2,5), e Maria intercede como em Caná (Jo 2,1-11), sempre apontando para Cristo.
+
+# --- APOLOGÉTICA (Eucaristia - Presença Real) ---
+
+[EUCARISTIA_PRESENCA_REAL]
+eucaristia e simbolo, presença real de jesus, presenca real de jesus, pao e vinho, eucaristia simbolo
+Jesus disse: “Isto é o meu corpo… isto é o meu sangue” (Mt 26,26-28) e ensinou: “Minha carne é verdadeira comida” (Jo 6,51-58). São Paulo adverte sobre receber indignamente a Eucaristia (1Cor 11,27-29).
