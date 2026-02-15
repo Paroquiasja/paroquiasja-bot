@@ -1,9 +1,3 @@
-
-# BASE UNIFICADA - PARÓQUIA SÃO JOSÉ DE ANCHIETA
-# Versão v3 - Correções específicas para:
-# - "Por que os católicos rezam para Maria?"
-# - "Qual o horário da missa?"
-
 [HORARIOS_MISSA]
 qual o horario da missa, qual o horário da missa, horario da missa, horário da missa, horarios da missa, horários da missa, hora da missa, quando tem missa, quando é a missa, que horas é a missa, missa hoje, missa domingo, horario da celebração, horario da igreja, horario das missas
 Nossa Paróquia São José de Anchieta celebra missas aos domingos às 10h e às 19h. Durante a semana: segunda-feira às 15h e de quarta a sábado às 19h30. Para outros horários, consulte a secretaria paroquial.
@@ -13,8 +7,8 @@ horario de confissao, confissão horario, quando confessar, quando posso confess
 As confissões na paróquia acontecem de quarta a sábado às 19h30. Para confirmar, procure a secretaria paroquial ou os avisos da igreja.
 
 [CONTATO]
-contato da paroquia, telefone da paroquia, numero da igreja, whatsapp da paroquia, falar com a paroquia, falar com a secretaria, email da paroquia, endereco da paroquia, como falar com a paroquia
-Você pode entrar em contato com a paróquia pela secretaria paroquial, pelo telefone (11) 2018-5524, pelo WhatsApp (11) 96437-3068, pelo Instagram @paroquiasjanchieta ou pelo e-mail paroquiasjdeanchieta@gmail.com.
+contato da secretaria, secretaria paroquial, telefone da secretaria, whatsapp da secretaria, numero da secretaria, falar com a secretaria, contato da paroquia, contato da paróquia, secretaria
+Você pode entrar em contato com a paróquia pela secretaria paroquial. Telefone: (11) 2018-5524. WhatsApp: (11) 96437-3068. E-mail: paroquiasjdeanchieta@gmail.com. Instagram: @paroquiasjanchieta.
 
 [PAROQUIA]
 sobre a paroquia, informacoes da paroquia, paroquia sao jose de anchieta
@@ -51,3 +45,373 @@ Os católicos não adoram Maria; a adoração é devida somente a Deus (Dt 6,13;
 [EUCARISTIA_PRESENCA_REAL]
 eucaristia e simbolo, presença real de jesus, presenca real de jesus, pao e vinho, eucaristia simbolo
 Jesus disse: “Isto é o meu corpo… isto é o meu sangue” (Mt 26,26-28) e ensinou: “Minha carne é verdadeira comida” (Jo 6,51-58). São Paulo adverte sobre receber indignamente a Eucaristia (1Cor 11,27-29).
+
+# --- LITURGIA E VIDA PAROQUIAL ---
+
+[PARTES_DA_MISSA]
+partes da missa, estrutura da missa, como é a missa, como funciona a missa
+A Missa se divide em: Ritos Iniciais, Liturgia da Palavra, Liturgia Eucarística e Ritos Finais. Cada parte ajuda a comunidade a celebrar o mistério de Cristo.
+
+[RITOS_INICIAIS]
+ritos iniciais, inicio da missa, entrada, ato penitencial, glória, gloria
+Os Ritos Iniciais preparam a assembleia para a celebração com o canto de entrada, saudação, ato penitencial e, quando previsto, o hino do Glória.
+
+[LITURGIA_DA_PALAVRA]
+liturgia da palavra, leituras da missa, palavra de deus na missa
+Na Liturgia da Palavra, Deus fala ao seu povo por meio das leituras bíblicas, do salmo e do Evangelho, e a Igreja responde com a profissão de fé e a oração dos fiéis.
+
+[LITURGIA_EUCARISTICA]
+liturgia eucaristica, liturgia eucarística, ofertorio, ofertório, consagração
+Na Liturgia Eucarística, o pão e o vinho são oferecidos, consagrados e se tornam o Corpo e o Sangue de Cristo.
+
+[RITOS_FINAIS]
+ritos finais, fim da missa, envio
+Os Ritos Finais concluem a celebração e enviam os fiéis em missão para viver o Evangelho no dia a dia.
+
+[LEITOR]
+leitor, leituras da missa, proclamar a palavra
+O leitor proclama as leituras da Sagrada Escritura, ajudando a assembleia a escutar a Palavra de Deus com atenção e fé.
+
+[SALMISTA]
+salmista, cantar o salmo, salmo responsorial
+O salmista canta ou recita o salmo responsorial, ajudando a assembleia a responder à Palavra de Deus com oração.
+
+[MINISTRO_DA_COMUNHAO]
+ministro da comunhão, ministro extraordinario, ministro extraordinário, distribuir comunhão
+O ministro extraordinário da Comunhão auxilia na distribuição da Eucaristia quando há necessidade pastoral.
+
+[COROINHAS_ACOLITOS]
+coroinhas, acólitos, servir no altar
+Coroinhas e acólitos auxiliam o sacerdote no altar, ajudando na organização e na dignidade da celebração.
+
+[COMENTARISTA]
+comentarista, avisos na missa, comentários
+O comentarista faz breves orientações e avisos para ajudar a assembleia a participar melhor da celebração, sem substituir a homilia ou a liturgia.
+
+[EQUIPE_DE_CANTO]
+equipe de canto, coral, musica na missa, música na missa, canto liturgico, canto litúrgico
+A equipe de canto anima a celebração com música adequada à liturgia, ajudando a assembleia a rezar cantando.
+
+[CANTO_LITURGICO]
+canto liturgico, canto litúrgico, escolher cantos, musica liturgica, música litúrgica
+O canto litúrgico deve estar de acordo com o tempo litúrgico e o momento da celebração, ajudando a oração e a participação do povo.
+
+[SINAIS_E_GESTOS]
+sinais e gestos, ficar em pe, ficar em pé, ajoelhar, sentar, sinal da cruz
+Os sinais e gestos expressam com o corpo aquilo que celebramos com a fé durante a liturgia.
+
+[SILENCIO_NA_MISSA]
+silencio na missa, silêncio na missa, momentos de silencio, momentos de silêncio
+O silêncio também faz parte da liturgia e ajuda a escutar Deus, refletir e rezar com mais profundidade durante a celebração.
+
+[ALTAR]
+altar, mesa do altar
+O altar é o centro da celebração, símbolo de Cristo, onde se realiza o sacrifício eucarístico.
+
+[AMBAO]
+ambao, ambão, lugar da palavra
+O ambão é o lugar de onde se proclama a Palavra de Deus, destacando a importância das leituras e do Evangelho na celebração.
+
+[SACRARIO]
+sacrario, sacrário, onde fica jesus, onde fica jesus eucaristico
+O sacrário é o lugar onde se conserva a Eucaristia, sinal da presença real de Jesus e lugar de adoração e respeito.
+
+[VASOS_SAGRADOS]
+vasos sagrados, calice, cálice, patena
+Os vasos sagrados, como o cálice e a patena, são usados na Eucaristia e devem ser tratados com cuidado e respeito.
+
+# --- TEMPOS LITÚRGICOS ---
+
+[ADVENTO]
+o que é advento, tempo do advento, preparação para o natal
+O Advento é o tempo de espera e preparação para o Natal, convidando à vigilância, à conversão e à esperança.
+
+[NATAL]
+o que é natal, nascimento de jesus, encarnação, encarnacao
+O Natal é o tempo litúrgico em que a Igreja celebra o nascimento de Jesus Cristo, recordando que Deus se fez homem por amor.
+
+[QUARESMA]
+o que é quaresma, tempo da quaresma, penitencia, penitência, conversao, conversão
+A Quaresma é o tempo de preparação para a Páscoa, marcado pela oração, pelo jejum e pela caridade, como convite à conversão.
+
+[SEMANA_SANTA]
+o que é semana santa, semana santa o que é, paixao de cristo, paixão de cristo, cruz
+A Semana Santa é a semana mais importante do ano litúrgico, na qual a Igreja celebra a Paixão, Morte e Ressurreição de Jesus.
+
+[PASCOA]
+o que é pascoa, o que é páscoa, ressurreicao, ressurreição
+A Páscoa é o tempo em que a Igreja celebra a Ressurreição de Jesus Cristo, vitória da vida sobre a morte e fundamento da fé cristã.
+
+[PENTECOSTES]
+o que é pentecostes, o que é pentecostés, espirito santo, espírito santo
+Pentecostes celebra a vinda do Espírito Santo sobre os apóstolos e marca o nascimento missionário da Igreja.
+
+[TEMPO_COMUM]
+o que é tempo comum, tempo liturgico comum, tempo litúrgico comum, vida cotidiana
+O Tempo Comum é o período em que a Igreja medita a vida pública de Jesus e seus ensinamentos, crescendo na fé no dia a dia.
+
+# --- CATEQUESE E FORMAÇÃO ---
+
+[COMO_ENTRAR_CATEQUESE]
+como entrar na catequese, entrar na catequese, inscricao na catequese, inscrição na catequese, catequese, catequese infantil, catequese de adultos
+As inscrições para a catequese são feitas na secretaria paroquial ou conforme divulgado nos avisos da paróquia.
+
+[CATEQUESE_INFANTIL]
+catequese infantil, catequese para crianças, primeira comunhao criança, primeira comunhão criança
+A catequese infantil prepara as crianças para a Primeira Comunhão e para crescer na fé.
+
+[CATEQUESE_JOVENS]
+catequese de jovens, crisma jovens, preparação crisma jovem, preparacao crisma jovem
+A catequese de jovens aprofunda a fé e prepara para a Crisma.
+
+[CATEQUESE_ADULTOS]
+catequese de adultos, crisma adulto, primeira comunhao adulto, primeira comunhão adulto, nunca fiz catequese
+A catequese de adultos é para quem deseja receber os sacramentos ou completar a iniciação cristã.
+
+[ENCONTROS_DE_FORMACAO]
+encontros de formacao, encontros de formação, formacao cristã, formação cristã, estudo da biblia, estudo da bíblia
+A paróquia promove encontros de formação para aprofundar a fé, conhecer a Bíblia e crescer na vida cristã.
+
+[ESCOLA_DA_FE]
+escola da fe, escola da fé, curso de formacao, curso de formação, formacao para leigos
+A Escola da Fé oferece conteúdos para ajudar os leigos a conhecer melhor a fé e viver com mais compromisso cristão.
+
+# --- VIDA PAROQUIAL E SERVIÇOS ---
+
+[COMO_PARTICIPAR_PASTORAL]
+como participar de pastoral, participar da pastoral, entrar em grupo, participar da igreja
+A paróquia possui diversas pastorais e grupos. Para participar, procure a secretaria ou converse com os coordenadores após as missas.
+
+[PASTORAL_FAMILIAR]
+pastoral familiar, ajuda para familias, ajuda para famílias, acompanhamento familiar
+A Pastoral Familiar acompanha e apoia as famílias em sua caminhada cristã.
+
+[VOLUNTARIADO]
+voluntariado, ajudar na paroquia, ajudar na paróquia, servir na igreja, ser voluntario, ser voluntário
+A paróquia conta com voluntários em diversas áreas. Se você deseja ajudar, procure a secretaria ou os coordenadores das pastorais.
+
+[COROINHAS]
+coroinhas, servir no altar, acólitos
+Crianças e jovens podem participar como coroinhas ou acólitos. Para informações e inscrições, procure a secretaria paroquial.
+
+[MINISTROS]
+ministros da comunhao, ministros da comunhão, ministro extraordinario, ministro extraordinário
+Os ministros extraordinários da Comunhão auxiliam na distribuição da Eucaristia. Para saber como participar, procure a coordenação ou a secretaria paroquial.
+
+[AVISOS_PAROQUIAIS]
+avisos da paroquia, avisos da paróquia, comunicados, informacoes importantes, informações importantes
+Os avisos paroquiais são divulgados nas missas e nos canais oficiais da paróquia. Fique atento para se manter informado.
+
+[REDES_SOCIAIS]
+redes sociais da paroquia, redes sociais da paróquia, instagram da paroquia, facebook da paroquia
+A paróquia divulga informações e eventos também pelas redes sociais. Procure pelos canais oficiais para acompanhar as novidades.
+
+[CALENDARIO_PAROQUIAL]
+calendario da paroquia, calendário da paróquia, programação da paroquia, programação da paróquia, agenda da paroquia, agenda da paróquia
+O calendário paroquial reúne as missas, encontros, festas e eventos do ano. As datas atualizadas são divulgadas nos avisos da igreja e nos canais oficiais da paróquia.
+
+# --- ESPIRITUALIDADE E ORAÇÃO ---
+
+[TIPOS_DE_ORACAO]
+tipos de oracao, tipos de oração, formas de rezar, como rezar
+A Igreja ensina várias formas de oração: louvor, ação de graças, pedido e intercessão, todas ajudando a crescer na amizade com Deus.
+
+[ORACAO_PESSOAL]
+oracao pessoal, oração pessoal, rezar sozinho, rezar em casa
+A oração pessoal é o momento íntimo do cristão com Deus, no silêncio do coração, falando e escutando o Senhor.
+
+[ORACAO_COMUNITARIA]
+oracao comunitaria, oração comunitária, rezar em grupo, rezar na igreja
+A oração comunitária é feita em grupo, especialmente na Missa e em encontros de oração, fortalecendo a fé vivida em comunidade.
+
+[LEITURA_ORANTE]
+leitura orante, lectio divina, rezar com a biblia, rezar com a bíblia
+A Leitura Orante da Bíblia (Lectio Divina) é uma forma de rezar com a Palavra de Deus, escutando, meditando e colocando em prática o que Ele nos diz.
+
+[MEDITACAO]
+meditacao, meditação, rezar em silencio, rezar em silêncio
+A meditação ajuda a refletir sobre a Palavra de Deus e os mistérios da fé, buscando escutar o Senhor no silêncio.
+
+[CONTEMPLACAO]
+contemplacao, contemplação, adoração silenciosa
+A contemplação é uma oração silenciosa e profunda, em que o cristão permanece na presença de Deus, adorando e confiando em seu amor.
+
+[EXAME_DE_CONSCIENCIA]
+exame de consciencia, exame de consciência, refletir sobre o dia
+O exame de consciência é um momento de oração para rever o dia, agradecer, pedir perdão e buscar crescer na vida cristã.
+
+[VIDA_DE_ORACAO]
+vida de oracao, vida de oração, rezar sempre, perseverar na oracao, perseverar na oração
+A vida de oração é o hábito de rezar com fidelidade, confiando em Deus e buscando viver segundo sua vontade no dia a dia.
+
+[SANTIDADE]
+santidade, ser santo, vocacao a santidade, vocação à santidade
+Todo cristão é chamado à santidade, vivendo o amor a Deus e ao próximo nas pequenas coisas do dia a dia.
+
+[DISCERNIMENTO]
+discernimento, vontade de deus, escolhas da vida
+O discernimento é buscar, na oração e com ajuda da Igreja, a vontade de Deus para as escolhas da vida.
+
+[CONFIANCA_EM_DEUS]
+confianca em deus, confiança em deus, entregar a deus, confiar no senhor
+Confiar em Deus é entregar a Ele nossa vida, mesmo nas dificuldades, acreditando que Ele cuida de nós com amor.
+
+[PERSEVERANCA]
+perseveranca, perseverança, nao desistir da fe, não desistir da fé
+A perseverança é permanecer firme na fé e no bem, mesmo diante das dificuldades e provações.
+
+[OFERECER_SOFRIMENTO]
+oferecer sofrimento, unir sofrimento a cristo, dor e fe, dor e fé
+O cristão pode oferecer seus sofrimentos a Deus, unindo-os ao sacrifício de Cristo e encontrando neles sentido e esperança.
+
+[GRATIDAO]
+gratidao, gratidão, agradecer a deus
+A gratidão é reconhecer os dons de Deus e agradecer por tudo, confiando em seu amor.
+
+# --- DEVOÇÕES ---
+
+[ADORACAO]
+adoracao, adoração, adorar o santissimo, adorar o santíssimo, santissimo, santíssimo
+A adoração ao Santíssimo Sacramento é um momento de oração diante de Jesus presente na Eucaristia, para louvar, agradecer e pedir graças.
+
+[NOVENA]
+novena, rezar novena, devoção, nove dias de oração
+A novena é uma forma de oração feita durante nove dias, pedindo a intercessão de um santo ou preparando-se para uma festa litúrgica.
+
+[VIA_SACRA]
+via sacra, via-crucis, caminho da cruz, paixao de cristo, paixão de cristo
+A Via-Sacra recorda o caminho de Jesus até a cruz e ajuda os fiéis a meditar sobre sua Paixão e seu amor por nós.
+
+[TERCO]
+terco, terço, rezar o terco, rezar o terço, rezar o rosario, rezar o rosário
+O Terço é uma oração mariana simples e profunda que ajuda a meditar os mistérios da vida de Jesus com Maria.
+
+[CREDO]
+credo, profissão de fé, profissao de fe
+O Credo é a profissão de fé da Igreja, onde proclamamos as principais verdades que acreditamos.
+
+[TRINDADE]
+trindade, pai filho espirito santo, pai filho espírito santo
+A Santíssima Trindade é um só Deus em três Pessoas: Pai, Filho e Espírito Santo.
+
+# --- IGREJA E REVELAÇÃO ---
+
+[IGREJA]
+o que é a igreja, igreja catolica, igreja católica, povo de deus
+A Igreja é o povo de Deus reunido em Cristo e continua a missão de Jesus no mundo por meio da Palavra, dos sacramentos e da caridade.
+
+[BIBLIA]
+biblia, bíblia, palavra de deus, sagrada escritura
+A Bíblia é a Palavra de Deus escrita sob inspiração do Espírito Santo, onde encontramos a história da salvação e os ensinamentos para a vida cristã.
+
+[REVELACAO]
+revelacao, revelação, deus se revela
+A Revelação é o modo como Deus se dá a conhecer à humanidade, especialmente por meio de Jesus Cristo, e é transmitida pela Escritura e pela Tradição.
+
+[SACRAMENTOS_O_QUE_SAO]
+o que são os sacramentos, o que sao os sacramentos, sinais da graça, sinais da graca
+Os sacramentos são sinais visíveis da graça de Deus, instituídos por Cristo, para nos dar a vida divina e fortalecer nossa fé.
+
+[GRACA]
+graca, graça, graça de deus
+A graça é o dom gratuito de Deus que nos torna participantes da vida de Deus e nos ajuda a viver como seus filhos.
+
+[PECADO_E_SALVACAO]
+salvacao, salvação, pecado e salvação, redencao, redenção
+Jesus Cristo nos salva do pecado e da morte por sua morte e ressurreição. A salvação é dom de Deus acolhido pela fé e vivido na conversão.
+
+[MANDAMENTO_DO_AMOR]
+mandamento do amor, amar a deus e ao proximo, amar a deus e ao próximo
+O mandamento do amor resume toda a lei cristã: amar a Deus sobre todas as coisas e ao próximo como a si mesmo.
+
+[VIDA_ETERNIDADE]
+vida eterna, ceu, céu, esperança cristã, esperanca cristã
+A vida eterna é a promessa de Deus para aqueles que vivem em comunhão com Ele.
+
+# --- COMUNIDADES E SANTOS ---
+
+[COMUNIDADES_DA_PAROQUIA]
+comunidades da paroquia, comunidades da paróquia, capelas, igrejas da paroquia, igrejas da paróquia
+A Paróquia conta com as comunidades de São Francisco de Assis, São Oscar Romero e Santa Luzia, que caminham juntas na fé, na oração e no serviço.
+
+[SAO_JOSE_DE_ANCHIETA]
+sao jose de anchieta, são josé de anchieta, padroeiro da paroquia, padroeiro da paróquia
+São José de Anchieta foi missionário jesuíta e grande evangelizador no Brasil, exemplo de dedicação à Igreja e ao anúncio do Evangelho.
+
+[SAO_FRANCISCO_DE_ASSIS]
+sao francisco de assis, são francisco de assis, francisco de assis
+São Francisco de Assis é conhecido por sua simplicidade, amor aos pobres e à criação, e por viver o Evangelho com alegria.
+
+[SAO_OSCAR_ROMERO]
+sao oscar romero, são óscar romero, oscar romero, mártir, martir
+São Oscar Romero foi bispo e mártir que deu a vida em defesa dos pobres e da justiça, exemplo de fidelidade ao Evangelho.
+
+[SANTA_LUZIA]
+santa luzia, santa lúcia, luzia, protetora da visão, protetora da visao
+Santa Luzia é uma mártir da Igreja, conhecida por sua fé e fidelidade a Cristo, invocada como protetora da visão.
+
+[SANTA_MARIA]
+maria, nossa senhora, mãe de jesus, mae de jesus
+Maria é a Mãe de Jesus e nossa Mãe, modelo de fé, humildade e entrega a Deus.
+
+[SAO_JOSE]
+sao jose, são josé, pai adotivo de jesus, patrono da igreja
+São José é o pai adotivo de Jesus e esposo de Maria, modelo de fé, obediência e trabalho, patrono da Igreja.
+
+[SAO_ANTONIO]
+sao antonio, são antônio, antonio de padua, santo casamenteiro
+São Antônio é conhecido pela pregação do Evangelho e pelo amor aos pobres, sendo muito invocado nas necessidades.
+
+[SANTA_RITA]
+santa rita, causas impossiveis, causas impossíveis
+Santa Rita é conhecida como intercessora das causas difíceis e impossíveis, exemplo de perseverança e confiança em Deus.
+
+[SANTO_EXPIDITO]
+santo expedito, causas urgentes, urgencias, urgências
+Santo Expedito é invocado nas causas urgentes, lembrando a importância de decidir-se pelo bem sem demora.
+
+# --- APOLOGÉTICA / DÚVIDAS COMUNS ---
+
+[IMAGENS_E_IDOLATRIA]
+imagens sao idolatria, imagens são idolatria, catolico adora imagens, católico adora imagens, idolatria imagens
+A Igreja Católica não adora imagens; a adoração é devida somente a Deus (Dt 6,13; Mt 4,10). As imagens ajudam a lembrar e honrar Jesus, Maria e os santos, assim como os querubins do templo eram sinais sagrados (Ex 25,18-22). Honrar não é adorar.
+
+[MARIA_E_INTERCESSAO]
+por que os catolicos rezam para maria, por que os católicos rezam para maria, porque os catolicos rezam para maria, porque os católicos rezam para maria, rezar para maria, maria intercede, intercessão de maria, maria mediadora
+Jesus é o único mediador da salvação (1Tm 2,5). Pedir a intercessão de Maria e dos santos é como pedir oração a irmãos na fé (1Tm 2,1). Maria intercede, como em Caná (Jo 2,1-11), sempre apontando para Cristo.
+
+[EUCARISTIA_PRESENCA_REAL]
+eucaristia é simbolo, eucaristia é símbolo, presença real de jesus, presenca real de jesus, pao e vinho, pão e vinho
+Jesus disse: “Isto é o meu corpo… isto é o meu sangue” (Mt 26,26-28) e ensinou: “Minha carne é verdadeira comida” (Jo 6,51-58). São Paulo adverte sobre receber indignamente a Eucaristia (1Cor 11,27-29).
+
+[SABADO_OU_DOMINGO]
+guardar o sabado, guardar o sábado, sabado ou domingo, sábado ou domingo, dia do senhor, domingo
+Os cristãos celebram o Dia do Senhor no domingo porque foi o dia da Ressurreição de Jesus (Mt 28,1; At 20,7; 1Cor 16,2). O domingo é o cumprimento cristão do mandamento.
+
+[JESUS_TEVE_IRMAOS]
+jesus tinha irmaos, jesus tinha irmãos, irmãos de jesus, irmaos de jesus, maria teve outros filhos
+Na Bíblia, a palavra “irmãos” também é usada para parentes próximos (Gn 13,8). Jesus confia Maria a João na cruz (Jo 19,26-27), indicando que Maria não teve outros filhos.
+
+[BIBLIA_E_TRADICAO]
+sola scriptura, so a biblia, só a bíblia, tradição da igreja
+A Palavra de Deus é transmitida pela Escritura e pela Tradição (2Ts 2,15). A Igreja é coluna e sustentáculo da verdade (1Tm 3,15).
+
+[CONFISSAO_PADRE]
+por que confessar ao padre, so deus perdoa, só deus perdoa, confessar a deus
+Deus perdoa os pecados, e Jesus confiou esse ministério à Igreja: “A quem perdoardes os pecados, serão perdoados” (Jo 20,22-23). A Bíblia também recomenda confessar os pecados (Tg 5,16).
+
+[PAPA_AUTORIDADE]
+por que o papa, autoridade do papa, papa na biblia, papa na bíblia
+Jesus deu a Pedro uma missão especial (Mt 16,18-19; Jo 21,15-17). O Papa, sucessor de Pedro, serve à unidade da Igreja.
+
+[PURGATORIO]
+purgatorio existe, purgatório existe, purgatorio na biblia, purgatório na bíblia
+A Bíblia fala de purificação após a morte (1Cor 3,13-15) e da oração pelos mortos (2Mc 12,44-46).
+
+[SALVACAO_FE_E_OBRAS]
+salvacao so pela fe, salvação só pela fé, fe e obras, fé e obras
+A salvação é dom da graça de Deus (Ef 2,8-10), e a fé verdadeira se manifesta nas obras (Tg 2,17).
+
+[CELIBATO_DOS_PADRES]
+celibato dos padres, padre pode casar, padres podem casar
+O celibato é uma disciplina da Igreja, não um dogma. A Bíblia fala do valor de se dedicar totalmente ao Senhor (1Cor 7,32-35; Mt 19,12).
