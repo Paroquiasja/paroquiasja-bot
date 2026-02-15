@@ -49,11 +49,10 @@ def escolher_resposta(pergunta):
         for chave in item["palavras"]:
             chave = chave.lower()
 
-            # Frase completa
+            # Frase completa tem peso maior
             if len(chave.split()) > 1 and chave in pergunta_norm:
                 pontos += 5
             else:
-                # Palavra solta
                 if chave in tokens:
                     pontos += 1
 
@@ -75,18 +74,28 @@ HTML = """
     <title>Assistente da Paróquia</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f2f2f2; }
-        .chat { max-width: 600px; margin: 40px auto; background: white; padding: 20px; border-radius: 8px; }
+        .chat { max-width: 700px; margin: 30px auto; background: white; padding: 20px; border-radius: 8px; }
         .msg { margin: 10px 0; }
         .user { font-weight: bold; }
-        .ia { color: #0b5ed7; }
-        input[type=text] { width: 75%; padding: 8px; }
-        button { padding: 8px 12px; margin-left: 5px; }
+        .ia { color: #0b5ed7; white-space: pre-line; }
+        input[type=text] { width: 70%; padding: 8px; }
+        button { padding: 8px 12px; margin: 5px 3px; }
         .actions { margin-top: 10px; }
+        .quick-buttons { margin-bottom: 10px; }
+        .quick-buttons form { display: inline; }
     </style>
 </head>
 <body>
     <div class="chat">
         <h2>Assistente da Paróquia</h2>
+
+        <div class="quick-buttons">
+            <form method="post"><input type="hidden" name="pergunta" value="Qual o horário da missa?"><button type="submit">Horários</button></form>
+            <form method="post"><input type="hidden" name="pergunta" value="Como marcar batismo?"><button type="submit">Batismo</button></form>
+            <form method="post"><input type="hidden" name="pergunta" value="Qual o contato da secretaria paroquial?"><button type="submit">Contato</button></form>
+            <form method="post"><input type="hidden" name="pergunta" value="Que dia tem confissão?"><button type="submit">Confissão</button></form>
+            <form method="post"><input type="hidden" name="pergunta" value="Como entrar na catequese?"><button type="submit">Catequese</button></form>
+        </div>
 
         {% for autor, texto in historico %}
             <div class="msg"><span class="{{ autor }}">{{ autor }}:</span> {{ texto }}</div>
@@ -107,10 +116,19 @@ HTML = """
 </html>
 """
 
+MENSAGEM_INICIAL = (
+    "Olá! 👋 Seja bem-vindo ao Assistente da Paróquia São José de Anchieta.\n\n"
+    "Você pode usar os botões acima ou digitar sua pergunta.\n\n"
+    "Exemplos:\n"
+    "• Qual o horário da missa?\n"
+    "• Como marcar batismo?\n"
+    "• Por que os católicos rezam para Maria?\n"
+)
+
 @app.route("/", methods=["GET", "POST"])
 def index():
     if "historico" not in session:
-        session["historico"] = [("ia", "Olá! Faça sua pergunta abaixo.")]
+        session["historico"] = [("ia", MENSAGEM_INICIAL)]
 
     if request.method == "POST":
         pergunta = request.form.get("pergunta", "").strip()
@@ -125,8 +143,12 @@ def index():
 
 @app.route("/limpar", methods=["POST"])
 def limpar():
-    session["historico"] = [("ia", "Olá! Faça sua pergunta abaixo.")]
+    session["historico"] = [("ia", MENSAGEM_INICIAL)]
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
+
+
+
