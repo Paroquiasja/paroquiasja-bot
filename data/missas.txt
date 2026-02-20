@@ -1,0 +1,9 @@
+[HORARIOS_MISSA]
+
+qual o horario da missa, qual o horário da missa, horario da missa, horário da missa, horarios da missa, horários da missa, hora da missa, quando tem missa, quando é a missa, que horas é a missa, missa hoje, missa domingo, horario da celebração, horario da igreja, horario das missas
+
+Nossa Paróquia São José de Anchieta celebra missas aos domingos às 10h e às 19h. Durante a semana: segunda-feira às 15h e de quarta a sábado às 19h30. Para outros horários, consulte a secretaria paroquial.
+
+[PAROQUIA]
+sobre a paroquia, informacoes da paroquia, paroquia sao jose de anchieta
+A Paróquia São José de Anchieta é uma comunidade católica dedicada à evangelização, à celebração dos sacramentos e ao serviço ao próximo, em comunhão com a Igreja
